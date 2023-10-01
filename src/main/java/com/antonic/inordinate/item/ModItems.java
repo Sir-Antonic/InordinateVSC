@@ -23,6 +23,7 @@ public class ModItems {
     public static final Item CHERRY_STICK = registerItem("cherry_stick", new Item(new FabricItemSettings()));
     public static final Item CRIMSON_STICK = registerItem("crimson_stick", new Item(new FabricItemSettings()));
     public static final Item WARPED_STICK = registerItem("warped_stick", new Item(new FabricItemSettings()));
+    public static final Item BAMBOO_STICK = registerItem("bamboo_stick", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(OAK_STICK);
@@ -35,6 +36,7 @@ public class ModItems {
         entries.add(CHERRY_STICK);
         entries.add(CRIMSON_STICK);
         entries.add(WARPED_STICK);
+        entries.add(BAMBOO_STICK);
     }
 
     private static Item registerItem(String name, Item item) {
